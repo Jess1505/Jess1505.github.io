@@ -1,0 +1,306 @@
+.item1{grid-area: header;}
+.item2{grid-area: logo;}
+.item3{grid-area: menu;}
+.item4{grid-area: blank;}
+.item5{grid-area: carousel;}
+.item6{grid-area: banner;}
+.item7{grid-area: cta1;}
+.item8{grid-area: cta2;}
+.item9{grid-area: cta3;}
+.item10{grid-area: footer;}
+.item12{grid-area: memorie1;}
+.item13{grid-area: memorie2;}
+.item14{grid-area: memorie3;}
+.item15{grid-area: banner2;}
+.item16{grid-area: banner3;}
+.item17{grid-area: carousel2;}
+.item18{grid-area: cta4;}
+.item19{grid-area: cta5;}
+.item20{grid-area: cta6;}
+
+
+
+
+
+.container-grid{
+display: grid;
+grid-template-areas: 'logo header header header header header'
+                      'menu  menu   menu  menu menu blank'
+                      'carousel carousel carousel carousel carousel carousel'
+                      'banner banner banner banner banner banner' 
+                      'cta1 cta1 cta2 cta2 cta3 cta3'
+                      ;                   
+
+background: black;
+grid-gap: 10px;
+padding: 10px;
+}
+
+.container-grid > div {
+
+text-align: center;
+padding: 10px 0;
+font-size: 20px;
+}
+
+.item1{
+  background:black;
+  padding: none;
+}
+
+.item2{
+  background:black;
+  padding: none;
+
+}
+
+.fraseheader{
+
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  height: 100%;
+  font-family: 'Gochi Hand', sans-serif;
+}
+
+.menu{
+  width: 90%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@import url('http://fonts.cdnfonts.com/css/gochi-hand');
+.menu li{
+  list-style: none;
+  margin: 20px;
+}
+
+.menu li a{
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.menu li a:hover{
+  padding: 5px 10px;
+  background: #7F005F;
+  color: white;
+  border-radius: 15px;
+}
+
+#form1{
+  background: #502d4400;
+  font-style: white;
+}
+ 
+.carousel-inner div{
+  width: 100%;
+  height: 500px;
+}
+
+
+.item7 div{
+  width: 100%
+  height 60px;
+
+}
+
+
+.item10 div{
+	align-items: center;
+}
+
+
+h1{
+font-family: "Mystery Quest", cursive;
+}
+
+.logo{
+  width: 120px;
+  height: 141px;
+  }
+
+.container-gridMemorias{
+
+display: grid;
+grid-template-areas: 'logo header header header header header'
+                      'menu  menu   menu  menu menu blank'
+                      'banner2 banner2 banner2 banner2 banner2 banner2' 
+                      'carousel carousel carousel carousel carousel carousel'
+                      'banner3 banner3 banner3 banner3 banner3 banner3'
+                      'carousel2 carousel2 carousel2 carousel2 carousel2 carousel2'
+
+                      'footer footer footer footer footer footer';                   
+
+background: black;
+grid-gap: 10px;
+padding: 10px;
+}
+
+
+
+.carousel-item{
+   width: 100%;
+   height: 500px;
+ width: 100%;
+  height: 500px;}
+
+
+
+
+
+.container-gridPrueba{
+display: grid;
+grid-template-areas: 'logo header header header header header'
+                      'menu  menu   menu  menu menu blank'
+                      ;                   
+
+background: black;
+grid-gap: 10px;
+padding: 10px;
+}
+
+
+.footer-basic {
+  padding:40px 0;
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+.container-gridform{
+  display: grid;
+  grid-template-areas: 
+                        'carousel carousel carousel form form form '
+                        'carousel carousel carousel form form form'
+                        'carousel carousel carousel form form form'
+                        ;                 
+ 
+  background-color:white;
+  grid-gap: 10px;
+  padding:20px;
+max-width: 1000px;
+min-width: 320px;
+margin: auto;
+
+  }
+
+.form-group{
+  padding:5px;
+  font-size: 13px;
+}
+
+
+.Formh2{
+    
+  text-align: center;
+  padding:5px;
+  font-family: Arial;
+  font-family: 'Gochi Hand', sans-serif;
+  
+  } 
+  
+  .form-control{
+  color: black;
+   width:80%;
+  
+  }
+  
+  .card-text{
+  
+  font-size:15px;
+  text-align: left;
+  padding:0px;
+  
+  }
+  
+  .cardcloseth{
+  
+   font-size:20px;
+   text-align: left;
+  }
+  
+  .card-body{
+  border-style:ridge;
+  height:90%;
+  }
+  
+  
+ 
+  .container-gridSales{
+    display: grid;
+    grid-template-areas:
+    'cta1 cta2 cta3 cta4 cta5 cta6';
+    background-color:
+    white;
+    grid-gap: 9px;
+    padding: 10px;
+    padding-left: 40px;
+    width: 30%;
+    }
+
+
+
+  .card-title{
+    font-family: 'Gochi Hand', sans-serif;
+  }
+
+  .btn btn-primary{
+    background-color: #7F005F;
+  }
+
